@@ -20,7 +20,7 @@ trait AppAwareEventTrait
      * Returns application.
      *
      * @return AppInterface
-     * @throws NotAppException
+     * @throws NoAppException
      */
     public function getApp(): AppInterface
     {
@@ -29,6 +29,6 @@ trait AppAwareEventTrait
             return $target;
         }
 
-        throw new NotAppException;
+        throw new NoAppException;
     }
 }

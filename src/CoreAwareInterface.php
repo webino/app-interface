@@ -20,7 +20,7 @@ interface CoreAwareInterface
      * Returns core.
      *
      * @return CoreInterface
-     * @throws NotCoreException
+     * @throws NoCoreException
      */
     public function getCore(): CoreInterface;
 }

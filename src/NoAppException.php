@@ -11,10 +11,10 @@
 namespace Webino;
 
 /**
- * Class NotAppException
+ * Class NoAppException
  * @package app-interface
  */
-class NotAppException extends RuntimeException implements AppExceptionInterface
+class NoAppException extends RuntimeException implements AppExceptionInterface
 {
 
 }

@@ -20,7 +20,7 @@ trait CoreAwareEventTrait
      * Returns core.
      *
      * @return CoreInterface
-     * @throws NotAppException
+     * @throws NoAppException
      */
     public function getCore(): CoreInterface
     {
@@ -29,6 +29,6 @@ trait CoreAwareEventTrait
             return $target;
         }
 
-        throw new NotCoreException;
+        throw new NoCoreException;
     }
 }

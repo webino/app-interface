@@ -20,7 +20,7 @@ interface AppAwareInterface
      * Returns application.
      *
      * @return AppInterface
-     * @throws NotAppException
+     * @throws NoAppException
      */
     public function getApp(): AppInterface;
 }
